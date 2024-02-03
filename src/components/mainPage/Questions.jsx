@@ -9,13 +9,15 @@ function Questions() {
     "What's your Github?",
     "What is this website for?",
     "Link for the Repositery?",
-    "Question 6",
+    "Is there more to this site than this page?",
   ];
   const answer = [
     "No, it is a dummy site for my portfolio.",
     "Krrish Kataria.",
-    "https://www.github.com/krrish557",
+    "https://github.com/krrish557",
     "To display my front end capabilities.",
+    "https://github.com/Krrish557/DummySite1",
+    "Yes, there is a shopping page.",
   ];
   const handleQuestionClick = (index) => {
     setSelectedQuestion(index);
@@ -32,7 +34,6 @@ function Questions() {
             onClick={() => handleQuestionClick(index)}
           >
             {question}
-            {selectedQuestion === index && <span className="arrow">➤</span>}
           </h2>
           {selectedQuestion === index && (
             <p className="answer">{answer[index]}</p>

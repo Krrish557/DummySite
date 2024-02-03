@@ -6,6 +6,7 @@ import GrowTogText from "./components/mainPage/GrowTogText";
 import Page2Img from "./components/mainPage/Page2Img";
 import FreqTitle from "./components/mainPage/FreqTitle";
 import Questions from "./components/mainPage/Questions";
+import Footer from "./components/mainPage/Footer";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <FreqTitle />
         <Questions />
       </div>
+      <Footer />
     </>
   );
 }

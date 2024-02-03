@@ -66,6 +66,7 @@
   top: 100%;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 #growtogText {
   text-align: center;
@@ -110,6 +111,7 @@
   position: absolute;
   top: 250%;
   left: 27%;
+  padding-bottom: 50px;
 }
 
 .questionContainer {
@@ -119,7 +121,7 @@
 .indiQues {
   border: 1px rgba(179, 179, 179, 0.498) ridge;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   width: 100vh;
   padding: 5px;
   border-radius: 15px;
@@ -143,4 +145,25 @@
   padding: 5px;
   border: 1px rgba(179, 179, 179, 0.498) ridge;
   border-radius: 10px;
+}
+#footer {
+  background-color: maroon;
+  overflow-y: hidden;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+  position: absolute;
+  z-index: -9;
+  top: 320%;
+  height: 45%;
+}
+
+#footimg {
+  position: absolute;
+  z-index: -9;
+  left: 0%;
+  background-color: red;
+  opacity: 0.5;
 }
