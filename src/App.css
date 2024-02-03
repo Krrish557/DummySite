@@ -1,0 +1,146 @@
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#redHalve {
+  position: sticky;
+  top: 0%;
+  font-size: small;
+  background-color: maroon;
+  padding: 1px;
+  min-height: 0.1%;
+  color: white;
+  text-align: center;
+}
+#navHalve {
+  position: sticky;
+  top: 0%;
+  min-height: 0.5%;
+  background-color: white;
+}
+#logo {
+  font-size: x-large;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#asset1 {
+  max-width: 40%;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: absolute;
+  border-radius: 20%;
+  animation: asset1Animation 1s ease-out;
+}
+
+@keyframes asset1Animation {
+  0% {
+    transform: translate(-100%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+}
+
+#headText {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  animation: headTextAnimation 1s ease-out;
+}
+
+@keyframes headTextAnimation {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+.page2 {
+  position: absolute;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+}
+#growtogText {
+  text-align: center;
+}
+#Page2sideText {
+  margin-top: 15%;
+  position: absolute;
+  left: 5%;
+  width: 40%;
+}
+
+#page2circle {
+  background-color: maroon;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 25vh;
+  right: 10vh;
+  z-index: -9;
+}
+
+#asset2 {
+  width: 300px;
+  position: absolute;
+  right: 20vh;
+  top: 27vh;
+}
+.page3 {
+  top: 300%;
+  height: 100%;
+  width: 100%;
+}
+#freqtitle {
+  position: absolute;
+  text-align: center;
+  top: 220%;
+  left: 30%;
+}
+
+#questions {
+  position: absolute;
+  top: 250%;
+  left: 27%;
+}
+
+.questionContainer {
+  margin-bottom: 10px;
+}
+
+.indiQues {
+  border: 1px rgba(179, 179, 179, 0.498) ridge;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 10px;
+  width: 100vh;
+  padding: 5px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.indiQues.selected {
+  background-color: #e0e0e0;
+}
+
+.arrow {
+  margin-right: 10px;
+}
+
+.answer {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px rgba(179, 179, 179, 0.498) ridge;
+  border-radius: 10px;
+}
