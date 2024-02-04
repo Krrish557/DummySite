@@ -1,12 +1,12 @@
-import footerimg from "../../assets/footer.jpg";
-import ig from "../../assets/icons/instagram.png";
-import fb from "../../assets/icons/facebook.png";
-import li from "../../assets/icons/linkedin.png";
-import wa from "../../assets/icons/whatsapp.png";
+import footerimg from "../../../assets/footer.jpg";
+import ig from "../../../assets/icons/instagram.png";
+import fb from "../../../assets/icons/facebook.png";
+import li from "../../../assets/icons/linkedin.png";
+import wa from "../../../assets/icons/whatsapp.png";
 function Footer() {
   return (
     <>
-      <div id="footer">
+      <div id="shopFooter">
         <footer>
           <p>
             {" "}

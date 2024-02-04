@@ -5,6 +5,7 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
+import ShoppingPage from "./components/shopPage/ShopPage.jsx";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +14,10 @@ const routes = createBrowserRouter([
   {
     path: "/shop/",
     element: <ShopApp />,
+  },
+  {
+    path: "/shop/:itemId",
+    element: <ShoppingPage />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
