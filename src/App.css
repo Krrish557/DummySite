@@ -34,6 +34,21 @@
   border-radius: 20%;
   animation: asset1Animation 1s ease-out;
 }
+#shopnowbutton {
+  background-color: maroon;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#shopnowbutton:hover {
+  background-color: darkred;
+}
 
 @keyframes asset1Animation {
   0% {
@@ -149,7 +164,7 @@
 #footer {
   background-color: maroon;
   overflow-y: hidden;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 10px;
   width: 100%;
@@ -166,4 +181,35 @@
   left: 0%;
   background-color: red;
   opacity: 0.5;
+}
+#footerContainer1 {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  text-align: left;
+}
+#footerContainer2 {
+  position: absolute;
+  left: 30%;
+  top: 100px;
+  text-align: left;
+}
+#footerContainer3 {
+  position: absolute;
+  left: 55%;
+  top: 100px;
+  text-align: left;
+}
+#footerContainer4 {
+  position: absolute;
+  left: 80%;
+  top: 100px;
+  text-align: left;
+}
+#contactLogo {
+  margin-top: 5px;
+  img {
+    width: 20px;
+    margin: 5px;
+  }
 }

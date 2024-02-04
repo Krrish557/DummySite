@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 function HeadText() {
+  const navigateTo = useNavigate();
+
+  const handleExploreClick = () => {
+    navigateTo("/shop/");
+  };
+
   return (
     <div id="headText">
       <h3>-----Self Adhesive Labels</h3>
@@ -24,6 +32,9 @@ function HeadText() {
         we&apos;re here to provide you with labels that make a lasting
         impression.
       </p>
+      <button onClick={handleExploreClick} id="shopnowbutton">
+        Shop Now
+      </button>
     </div>
   );
 }
