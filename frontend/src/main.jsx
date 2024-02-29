@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
 import ShoppingPage from "./components/shopPage/ShopPage.jsx";
+import AdminApp from "./components/AdminLogin/LoginApp.jsx";
+import AdminDashboard from "./components/AdminLogin/AdminDashboard.jsx";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +20,14 @@ const routes = createBrowserRouter([
   {
     path: "/shop/:itemId",
     element: <ShoppingPage />,
+  },
+  {
+    path: "/login",
+    element: <AdminApp />,
+  },
+  {
+    path: "/admindash",
+    element: <AdminDashboard />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

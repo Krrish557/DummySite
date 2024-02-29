@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import items from "./items.js";
 import Navbar from "../mainPage/navbar.jsx";
-import Break from "./Break.jsx";
+import Break from "./components/Break.jsx";
 function ShoppingPage() {
   const { itemId } = useParams();
   const selectedItem = items.find((item) => item.key.toString() === itemId);

@@ -1,0 +1,38 @@
+* {
+  overflow-y: hidden;
+}
+input[type="text"] {
+  background-color: aliceblue;
+  color: black;
+  padding: 5px;
+}
+input[type="text"]:focus {
+  background-color: white;
+}
+input[type="password"] {
+  background-color: aliceblue;
+  color: black;
+  padding: 5px;
+}
+input[type="password"]:focus {
+  background-color: white;
+}
+.submit-btn {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit-btn:hover {
+  background-color: #8b0000;
+}
+
+.loginForm {
+  width: fit-content;
+  padding: 20px;
+  background-color: rgba(128, 0, 0, 0.5);
+}

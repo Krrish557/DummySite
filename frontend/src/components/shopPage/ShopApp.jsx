@@ -2,7 +2,7 @@ import Navbar from "../mainPage/navbar";
 import Items from "./components/Items";
 import Footer from "./components/Footer.jsx";
 import "./ShopApp.css";
-import Break from "./Break.jsx";
+import Break from "./components/Break.jsx";
 function ShopApp() {
   return (
     <div className="shopAppRoot">
