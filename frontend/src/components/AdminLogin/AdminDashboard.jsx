@@ -1,5 +1,5 @@
 import Navbar from "../mainPage/navbar";
-import Footer from "../shopPage/components/Footer";
+import Footer from "../shopPage/components/ShopFooter";
 import InsertForm from "./components/InsertForm";
 import Break from "../shopPage/components/Break";
 import DeleteItems from "./components/DeleteItems";

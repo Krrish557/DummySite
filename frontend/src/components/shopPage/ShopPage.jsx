@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Navbar from "../mainPage/navbar.jsx";
-import Footer from "../mainPage/Footer.jsx";
+import Footer from "./components/ShopFooter.jsx";
 import Break from "./components/Break.jsx";
 import { useState, useEffect } from "react";
 import "./ShopPage.css";

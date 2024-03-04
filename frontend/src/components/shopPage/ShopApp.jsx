@@ -1,6 +1,6 @@
 import Navbar from "../mainPage/navbar";
 import Items from "./components/Items";
-import Footer from "./components/Footer.jsx";
+import Footer from "./components/ShopFooter.jsx";
 import "./ShopApp.css";
 import Break from "./components/Break.jsx";
 function ShopApp() {

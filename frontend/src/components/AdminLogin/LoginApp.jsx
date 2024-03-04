@@ -1,5 +1,5 @@
 import Navbar from "../mainPage/navbar";
-import Footer from "../shopPage/components/Footer";
+import Footer from "../shopPage/components/ShopFooter";
 import Break from "../shopPage/components/Break";
 import "./loginApp.css";
 import axios from "axios";
