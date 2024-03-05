@@ -33,6 +33,8 @@ function LoginApp() {
       <Break />
       <Break />
       <center>
+        <h1 style={{ color: "maroon" }}>Login</h1>
+        <br />
         <form className="loginForm" action="POST">
           <label htmlFor="username">Username:</label> &nbsp;
           <input

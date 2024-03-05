@@ -161,6 +161,14 @@
   border: 1px rgba(179, 179, 179, 0.498) ridge;
   border-radius: 10px;
 }
+
+#contactLogo {
+  margin-top: 5px;
+  img {
+    width: 20px;
+    margin: 5px;
+  }
+}
 #footer {
   background-color: maroon;
   overflow-y: hidden;
@@ -174,6 +182,14 @@
   top: 320%;
   height: 45%;
 }
+.footermain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+}
 
 #footimg {
   position: absolute;
@@ -182,34 +198,9 @@
   background-color: red;
   opacity: 0.5;
 }
-#footerContainer1 {
-  position: absolute;
-  left: 80px;
-  top: 100px;
-  text-align: left;
-}
-#footerContainer2 {
-  position: absolute;
-  left: 30%;
-  top: 100px;
-  text-align: left;
-}
-#footerContainer3 {
-  position: absolute;
-  left: 55%;
-  top: 100px;
-  text-align: left;
-}
+#footerContainer1,
+#footerContainer2,
+#footerContainer3,
 #footerContainer4 {
-  position: absolute;
-  left: 80%;
-  top: 100px;
   text-align: left;
-}
-#contactLogo {
-  margin-top: 5px;
-  img {
-    width: 20px;
-    margin: 5px;
-  }
 }

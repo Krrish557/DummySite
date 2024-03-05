@@ -1,70 +1,40 @@
 /* ShopPage.css */
+
 .shop-item-container {
+  align-items: start;
+  justify-content: start;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  margin-left: 10%;
 }
 
 .shop-item-details {
   display: flex;
-  align-items: flex-start;
-  margin-top: 20px;
+  flex-direction: column;
 }
 
 .shop-img {
-  position: absolute;
-  left: 10%;
-  top: 100px;
   width: 300px;
   height: auto;
-  border-radius: 5px;
-  margin-right: 20px;
 }
 
 .shop-item-text {
-  color: #333;
+  text-align: left;
 }
 
 .title {
   font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
+  font-weight: bold;
 }
 
 .price {
-  left: 30%;
-  font-size: 20px;
-  margin-bottom: 10px;
-  color: maroon;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 .description {
   font-size: 16px;
-  margin-bottom: 20px;
-  color: #333;
 }
 
 .sizes {
   font-size: 16px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.container {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.heading {
-  font-size: 36px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.subheading {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }

@@ -27,7 +27,6 @@ function ShoppingPage() {
       console.error(error);
     }
   };
-
   const selectedItem = items.find((item) => item.key.toString() === itemId);
 
   if (loading) {
@@ -65,8 +64,11 @@ function ShoppingPage() {
           />
           <div className="shop-item-text">
             <h1 className="title">{selectedItem.name}</h1>
+            <br />
             <p className="price">Price: ${selectedItem.price}</p>
+            <br />
             <p className="description">{selectedItem.desc}</p>
+            <br />
             <p className="sizes">Sizes: {selectedItem.sizes.join(", ")}</p>
           </div>
         </div>
